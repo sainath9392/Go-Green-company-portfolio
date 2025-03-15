@@ -1,0 +1,310 @@
+body {
+    color: #656565;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #1dbf73;
+    transition: 0.3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #353535;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    color: #656565;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #353535;
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+/* header */
+
+nav{
+    background: linear-gradient(rgba(0, 0, 0, 0.679), rgba(0, 0, 0, 0.679));
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+   
+}
+.homeli{
+    color: #1dbf73;
+}
+.homeli:hover{
+    color: #ffffff;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    width: 47%;
+    gap: 25px;
+    list-style: none;
+    font-weight: 600;
+    padding-right: 85px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+nav a:hover{
+    color: #1dbf73
+}
+nav .logo{
+    letter-spacing: 5px;
+    font-size: 2.1rem;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.list1{
+    color: #1dbf73;
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    font-weight: 600;
+    width: 110px;
+}
+select:hover{
+    color: #1dbf73;
+}
+option{
+    color: #000000;
+}
+.img1{
+    background: linear-gradient(rgba(0, 0, 0, 0.679), rgba(0, 0, 0, 0.679)), url(./images/image1.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.img2{
+    background: linear-gradient(rgba(0, 0, 0, 0.679), rgba(0, 0, 0, 0.679)), url(./images/image2.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.img3{
+    background: linear-gradient(rgba(0, 0, 0, 0.679), rgba(0, 0, 0, 0.679)), url(./images/image3.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+}
+.contentcar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.contentcar{
+    text-align: center;
+    position: relative;
+    top: 35vh;
+}
+
+.contentcar h2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.contentcar p {
+    width: 60%;
+    margin: 0 auto 30px auto;
+    color: #ffffff;
+}
+
+.contentcar a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: #1dbf73;
+    height: 45px;
+    width: 180px;
+    padding: 10px 10px;
+}
+.contentcar a:hover{
+    background-color: #ffffff;
+}
+.contentcar a:hover{
+    color: #1dbf73;
+}
+.contentcar a:hover{
+    border: 1px solid #1dbf73;
+}
+.about{
+ padding: 60px 27.5vh;
+ background: #f2f2f2;
+   
+}
+.about1{
+   text-align: center;
+   padding-bottom: 20px;
+}
+span{
+  font-weight: bold;  
+  counter-reset: black;
+  font-size: 35px;
+  line-height: 10px;
+}
+.about1 p{
+    padding:10px 29vh;
+}
+.about2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.details h2{
+    color: #1dbf73;
+}
+.details a{
+    background-color: #1dbf73;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+.details p{
+    padding-bottom: 10px;
+}
+.details a:hover{
+    background-color: black;
+    color: #ffffff;
+}
+.specs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 15px 0;
+}
+.specslist{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: #ffffff;
+    width: 350px;
+}
+.specslist h5{
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.specslist p{
+    font-size: 14px;
+    position: relative;
+    bottom: 25px;
+    padding: 5px 25px;
+}
+.specslist .icon{
+    position: relative;
+    bottom: 30px;
+    border-radius: 50px;
+    border: 4px solid #ffffff;
+}
+.specslist .spec-btn{
+    background-color: #1dbf73;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    font-size: 13px;
+    position: relative;
+    bottom: 30px;
+}
+.list1:hover .one{
+    background-color: black;
+    color: #ffffff;
+}
+.list2:hover .two{
+    background-color: black;
+    color: #ffffff;
+}
+.list3:hover .three{
+    background-color: black;
+    color: #ffffff;
+}
+.specslist:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.specslist:hover .icon{
+   
+    border: 4px solid #00000076;
+}
+.Services{
+    padding: 60px 220px;
+    
+}
+.serhead{
+    h2{
+        letter-spacing: 3px;
+    }
+    p{
+        padding: 10px 29vh;
+    }
+    text-align: center;
+}
+.servlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 5vh;
+    padding-top: 20px;
+}
+.listitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: #ffffff;
+    width: 350px;
+    text-align: center;
+}
