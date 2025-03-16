@@ -649,3 +649,69 @@ span{
         color: #000000;
     }  
 }
+.portdet UL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.portdet li{
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: #fff;
+    background-color:#333232;
+}
+.portdet li:hover{
+    background-color: #1dbf73;
+}
+.portdet .frtli{
+    background-color: #1dbf73;
+}
+.gallr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 30px;
+
+}
+
+.prtimg1{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-1.jpg);
+    
+}
+.prtimg2{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-2.jpg);
+    
+}
+.prtimg3{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-3.jpg);
+}
+.prtimg4{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-4.jpg);
+}
+.prtimg5{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-5.jpg);
+}
+.prtimg6{
+    background: linear-gradient(rgba(0, 0, 0, 0.384), rgba(0, 0, 0, 0.384)),url(./images/portfolio-6.jpg);
+}
+.prtimg1,.prtimg2,.prtimg3,.prtimg4,.prtimg5,.prtimg6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    height: 230px;
+    width: 350px;
+    p{
+        color: #ffffff;
+        font-size: 0.8rem;
+    }
+    h4{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
