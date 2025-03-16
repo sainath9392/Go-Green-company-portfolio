@@ -359,7 +359,7 @@ span{
 .pricecontainer{
     background: #f2f2f2;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 }
 .pricehead{
     display: flex;
@@ -472,4 +472,180 @@ span{
     a:hover{
         background-color: #353535;
     }
+}
+.skillscontainer{
+    background: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.skillhead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    h2{
+        color: #000000;
+        padding: 0 400px;
+        text-align: center;
+    }
+    p{
+        color: #353535;
+        padding: 0 400px;
+        text-align: center;
+        padding-bottom: 30px;
+    }  
+    span{
+        position: relative;
+        bottom: 13px;
+        color: #000000;
+    }  
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    bottom: 85px;
+}
+.html{
+    display: flex;
+    padding:0 18px;
+    padding-top: 15px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28a745;
+    width: 73vw;
+    font-size: 13px;
+}
+.html p{
+    color: #ffffff;
+}
+.css{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a7a7a73d;
+    width: 73vw;
+    font-size: 13px;
+}
+.css p{
+    color: #ffffff;
+    
+    
+}
+.css span{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    padding-top: 15px;
+    height: 30px;
+    width: 66vw;
+    background-color: #17a2b8;
+}
+.jquery{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a7a7a73d;
+    width: 73vw;
+    font-size: 13px;
+}
+.jquery p{
+    color: #ffffff;
+    
+    
+}
+.jquery span{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    padding-top: 15px;
+    height: 30px;
+    width: 59vw;
+    background-color: #ffc107;
+}
+.php{
+    display: flex;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a7a7a73d;
+    width: 73vw;
+    font-size: 13px;
+}
+.php p{
+    color: #ffffff;
+    
+    
+}
+.php span{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    padding-top: 15px;
+    height: 30px;
+    width: 51vw;
+    background-color: #dc3545;
+}
+.skills span{
+    font-weight: 100;
+}
+.showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 130px;
+    position: relative;
+    bottom: 20px;
+}
+
+.cases h1{
+    font-size: 3.2rem;
+    color: #1dbf73;
+    line-height: 3rem;
+}
+.cases p{
+    font-size: 20px;
+    color:#000000d1;
+}
+.port-con{
+    background: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.porthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    h2{
+        color: #000000;
+        padding: 0 400px;
+        text-align: center;
+    }
+    p{
+        color: #353535;
+        padding: 0 400px;
+        text-align: center;
+        padding-bottom: 30px;
+    }  
+    span{
+        position: relative;
+        bottom: 13px;
+        color: #000000;
+    }  
 }
