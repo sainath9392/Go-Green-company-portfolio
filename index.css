@@ -347,17 +347,25 @@ span{
         
     }
 }
+.banner a:hover{
+    background-color: black;
+    color: #ffffff;
+}
 .banner span{
     position: relative;
     bottom: 13px;
     color: #fff;
+}
+.pricecontainer{
+    background: #f2f2f2;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .pricehead{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 60px;
     padding-bottom: 20px;
     h2{
         color: #000000;
@@ -390,6 +398,7 @@ span{
     align-items: center;
     width: 350px;
     height: 65vh;
+    background-color: #ffffff;
     ul{
         list-style: none;
         padding-top: 35px;
