@@ -190,14 +190,19 @@ span{
   font-size: 35px;
   line-height: 10px;
 }
+.about1 span{
+    position: relative;
+    bottom: 13px;
+}
 .about1 p{
-    padding:10px 29vh;
+    padding:10px 39vh;
 }
 .about2{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
+    padding-left: 3px;
 }
 .details h2{
     color: #1dbf73;
@@ -220,7 +225,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 40px;
     padding: 15px 0;
 }
 .specslist{
@@ -289,6 +294,10 @@ span{
         padding: 10px 29vh;
     }
     text-align: center;
+    span{
+        position: relative;
+        bottom: 13px;
+    }
 }
 .servlist{
     display: flex;
@@ -307,4 +316,151 @@ span{
     background-color: #ffffff;
     width: 350px;
     text-align: center;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 43.5vh;
+    background-color:#1dbf73;
+    padding: 15.5vh 0;
+    h2{
+        color: #ffffff;
+        padding: 0 400px;
+        text-align: center;
+    }
+    p{
+        color: #ffffff;
+        padding: 0 400px;
+        text-align: center;
+        padding-bottom: 30px;
+    }    
+    a{
+        color: #1dbf73;
+        text-decoration: none;
+        padding: 7px 30px;
+        background-color: #ffffff;
+        border: 1px solid #1dbf73;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        
+    }
+}
+.banner span{
+    position: relative;
+    bottom: 13px;
+    color: #fff;
+}
+.pricehead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    h2{
+        color: #000000;
+        padding: 0 400px;
+        text-align: center;
+    }
+    p{
+        color: #353535;
+        padding: 0 400px;
+        text-align: center;
+        padding-bottom: 30px;
+    }  
+    span{
+        position: relative;
+        bottom: 13px;
+        color: #000000;
+    }  
+}
+.pricerow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+.pricelists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 65vh;
+    ul{
+        list-style: none;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    i{
+        font-size: 15px;
+        padding-right: 5px;
+    }
+    .green{
+        color: #1dbf73;
+    }
+    .red{
+        color: orangered;
+    }
+    li{
+        padding-bottom: 7px;
+    }
+}
+.pricelists:hover{
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.price-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgb(57, 57, 57) ;
+    width: 350px;
+    padding-top: 15px;
+    h3,h2,p{
+        color: #ffffff;
+    }
+    h3,h2{
+        font-weight: 400;
+    }
+    p{
+        font-size: 12px;
+    }
+    
+}
+.pricelists a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: rgb(57, 57, 57);
+    height: 45px;
+    width: 140px;
+    padding: 10px 29px;
+    margin-bottom: 60px;
+    
+}
+.pricelists a:hover{
+    background-color: #1dbf73;
+}
+.price1{
+    position: relative;
+    top: 30px;
+}
+.price{
+    .price-cont{
+        background: #1dbf73;
+    }
+
+}
+.price{
+    a{
+        background-color:#1dbf73;
+        color: #ffffff;
+    }
+    a:hover{
+        background-color: #353535;
+    }
 }
