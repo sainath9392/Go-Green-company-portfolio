@@ -715,3 +715,96 @@ span{
         font-weight: 600;
     }
 }
+.contact{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background: #f2f2f2;
+}
+.contacthead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    h2{
+        color: #000000;
+        padding: 0 400px;
+        text-align: center;
+    }
+    p{
+        color: #353535;
+        padding: 0 400px;
+        text-align: center;
+        padding-bottom: 30px;
+    }  
+    span{
+        position: relative;
+        bottom: 13px;
+        color: #000000;
+    }  
+}
+.conttypes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+
+}
+.contype{
+    background: #fff;
+    height: 150px;
+    width: 270px;
+    padding-top: 20px;
+    p{
+        color: #000000;
+        font-weight: 200;
+    }
+}
+.contype h6{
+    font-weight: 900;
+    font-size: 0.9rem;
+    
+}
+.locat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+fieldset{
+    height: 350px;
+    width: 420px;
+    background-color: #fff;
+    padding: 25px 25px;
+}
+form{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+    
+    div{
+        display: flex;
+        gap: 20px;
+        input{
+            width: 175px;
+            
+        }
+    }
+    input{
+        border-color:#65656541;
+    }
+    textarea{
+        height: 135px;
+        border-color: #65656541;
+    }
+    button{
+        width: 185px;
+        padding: 10px 10px;
+        border:none;
+        background: #1dbf73;
+        color: #fff;
+        margin-left: 185px;
+    }
+}
