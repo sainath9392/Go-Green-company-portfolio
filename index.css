@@ -809,9 +809,11 @@ form{
     }
 }
 .lins img{
-    height: 3vh;
-    width: 3vh;
-    background: #1dbf73;
+    height: 5vh;
+    width: 5vh;
+    padding: 5px 5px;
+    border-radius: 50px;
+    background: #000000;
 }
 .aboutuscont{
     height: 400px;
@@ -888,7 +890,7 @@ form{
       font-size: 15px;
       color: #fff;
       padding-bottom: 10px;
-      border-bottom: 1px solid #fff;
+     
     }
 
 }
@@ -904,13 +906,36 @@ form{
     span{
         font-size: 16px;
         position: relative;
-        bottom: 15px;
+        bottom: 18px;
     }
     p{
         font-size: 15px;
         color: #fff;
       }
-  
+    .Subscribe{
+        height: 30px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            background-color:#000000;
+            color: #fff;
+            height: 30px;
+            width: 100px;
+            padding: 4px 10px;
+            position: relative;
+            top: 8px;
+        }
+        p:hover{
+            background-color:#333232;
+        }
+        .subcont{
+            background-color: #ffffff;
+            height: 30px;
+            width: 120px;
+        }
+    }
 }
 
 .footer__bottom {
